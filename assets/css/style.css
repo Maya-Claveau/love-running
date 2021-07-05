@@ -12,9 +12,9 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo*/
-h1,
-h2 {
+/* headings and logo */
+
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -34,8 +34,7 @@ h2 {
     letter-spacing: 4px;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -46,7 +45,8 @@ h2 {
 }
 
 #menu a {
-    text-decoration-line: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 #menu a:hover {
@@ -57,7 +57,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero-image */
+/* hero-image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -67,8 +67,7 @@ h2 {
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
 }
 
@@ -85,11 +84,10 @@ h2 {
 
 /* creates the level of zoom for hero images */
 @keyframes hero-zoom {
-    from {
+    from{
         transform: scale(1);
     }
-
-    to {
+    to{
         transform: scale(1.1);
     }
 }
@@ -110,12 +108,14 @@ h2 {
 
     bottom: 30px;
     right: 150px;
+
     position: absolute;
 }
 
 /* club-ethos */
+
 #club-ethos {
-    height: 300px;
+    height: 600px;
 }
 
 #left-about {
